@@ -21,6 +21,8 @@ class StandardScaler:
         assert X.ndim == 2, 'X must be 2 dimension'
         assert self._mean is not None and self._scale is not None, \
             'must fit before transform'
+        assert X.shape[1] == len(self._mean), \
+            'the feature of X must be equal to _mean and _scale'
 
         return (X - self._mean) / self._scale
 
@@ -46,6 +48,8 @@ class MinMaxScaler:
         assert X.ndim == 2, 'X must be 2 dimension'
         assert self._min is not None and self._max is not None, \
             'must fit before transform'
+        assert X.shape[1] == len(self._max), \
+            'the feature of X must be equal to _min and _max'
 
         return (X - self._min) / (self._max - self._min)
 
