@@ -34,4 +34,14 @@
     </task>
     <servers />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="888" y="376" key="#Notifications" timestamp="1588413165389">
+      <screen x="82" y="0" width="1838" height="1080" />
+    </state>
+    <state x="888" y="376" key="#Notifications/82.0.1838.1080@82.0.1838.1080" timestamp="1588413165389" />
+    <state x="780" y="294" key="FileChooserDialogImpl" timestamp="1588413199015">
+      <screen x="82" y="0" width="1838" height="1080" />
+    </state>
+    <state x="780" y="294" key="FileChooserDialogImpl/82.0.1838.1080@82.0.1838.1080" timestamp="1588413199015" />
+  </component>
 </project>
