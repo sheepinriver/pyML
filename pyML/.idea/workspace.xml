@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea14f27e-65e4-414e-9094-6eb2b999629a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../07_梯度下降.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../07_梯度下降.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxiliary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
