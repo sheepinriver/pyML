@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea14f27e-65e4-414e-9094-6eb2b999629a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auxiliary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_PCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08_PCA.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
