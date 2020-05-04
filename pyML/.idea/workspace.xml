@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea14f27e-65e4-414e-9094-6eb2b999629a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LogisticRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_PCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08_PCA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_逻辑回归.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../09_逻辑回归.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -35,13 +35,31 @@ def draw_2D_kNN(X, y, X_predict, k=5):
     plt.plot(plot_x, plot_y, color='r')
 
 
-plt.tick_params(direction="out"
-                , length=6
-                , width=2
-                , colors="w"
-                # , grid_color='r'
-                # , grid_alpha=0.5
-                )
-plt.legend()
-plt.title('kNN Classifier', color='w')
-plt.show()
+    plt.tick_params(direction="out"
+                    , length=6
+                    , width=2
+                    , colors="w"
+                    # , grid_color='r'
+                    # , grid_alpha=0.5
+                    )
+    plt.legend()
+    plt.title('kNN Classifier', color='w')
+    plt.show()
+
+    def plot_decision_boundary(model, axis):
+
+        x0, x1 = np.meshgrid(
+            np.linspace(axis[0], axis[1], int((axis[1] - axis[0]) * 100)).reshape(-1, 1),
+            np.linspace(axis[2], axis[3], int((axis[3] - axis[2]) * 100)).reshape(-1, 1),
+        )
+        X_new = np.c_[x0.ravel(), x1.ravel()]
+
+        y_predict = model.predict(X_new)
+        zz = y_predict.reshape(x0.shape)
+
+        from matplotlib.colors import ListedColormap
+        custom_cmap = ListedColormap(['#EF9A9A', '#FFF59D', '#90CAF9'])
+
+        plt.contourf(x0, x1, zz, linewidth=5, cmap=custom_cmap)
+
+
