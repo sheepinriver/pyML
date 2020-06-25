@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea14f27e-65e4-414e-9094-6eb2b999629a" name="Default Changelist" comment="" />
+    <list default="true" id="ea14f27e-65e4-414e-9094-6eb2b999629a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowGit.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -70,6 +73,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="888" y="376" key="#Notifications" timestamp="1588413165389">
@@ -80,5 +84,10 @@
       <screen x="82" y="0" width="1838" height="1080" />
     </state>
     <state x="780" y="294" key="FileChooserDialogImpl/82.0.1838.1080@82.0.1838.1080" timestamp="1588413199015" />
+    <state x="39" y="23" width="1401" height="877" key="SettingsEditor" timestamp="1593071623876">
+      <screen x="39" y="23" width="1401" height="877" />
+    </state>
+    <state x="39" y="23" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1593069629682" />
+    <state x="39" y="23" width="1401" height="877" key="SettingsEditor/39.23.1401.877@39.23.1401.877" timestamp="1593071623876" />
   </component>
 </project>
